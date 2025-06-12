@@ -4,15 +4,18 @@
 
 int main()
 {
-    int computer;
+    // Assinging variables 
+    int computer; 
     int user;
     int number_of_guesses = 0;
-    srand(time(0) + clock());      // Shuffle once
+    srand(time(0) + clock());      // Shuffle once based on CPU ticks
     computer = (rand() % 100) + 1; // Assign random number to computer
     do
     {
+        // Taking user input
         printf("Enter your choice between (1-100): ");
         scanf("%d", &user);
+        // Checking the conditions
         if (user < computer)
         {
             printf("Higher number please!\n");
