@@ -64,7 +64,7 @@ int main() {
         }
 
         // Check if any requirement is missing
-        if(!hasupper || !haslower || !hasspecial){
+        if(!hasupper || !haslower || !hasspecial || !hasdigit){
             printf("Weak password.\n");
             continue;  // Ask again if complexity conditions not met
         }
@@ -87,6 +87,6 @@ int main() {
         }
     }
 
-    return 0; // End of program
+    return 0; 
 }
 
