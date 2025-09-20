@@ -178,7 +178,7 @@ void Gregorian_Calendar(int month , int year){
     				}
 				year--;
 
-                // FIX: recompute leap + month days
+                // recompute leap + month days
                 CurrentYearIs_leap = 0;
                 if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
                     CurrentYearIs_leap = 1;
@@ -242,10 +242,10 @@ void Gregorian_Calendar(int month , int year){
                                 case 12: printw("\n\t\tDecember %d\n", year); break;
     				}
 				month++;
-                // FIX: wrap month
+                // wrap month
                 if (month > 12) { month = 1; year++; }
 
-                // FIX: recompute leap + month days
+                // recompute leap + month days
                 CurrentYearIs_leap = 0;
                 if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
                     CurrentYearIs_leap = 1;
@@ -309,10 +309,10 @@ void Gregorian_Calendar(int month , int year){
                                 case 12: printw("\n\t\tDecember %d\n", year); break;
     }
 				month--;
-                // FIX: wrap month
+                //  wrap month
                 if (month < 1) { month = 12; year--; }
 
-                // FIX: recompute leap + month days
+                //  recompute leap + month days
                 CurrentYearIs_leap = 0;
                 if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
                     CurrentYearIs_leap = 1;
