@@ -22,11 +22,11 @@ int main(){
 	int length = strlen(userentered_string); // Calculating length of user entered string
 	Lptr = userentered_string; // Initializing Left pointer at start of string 
         Rptr = &userentered_string[length-1]; // Initializing Right pointer at end of string
-	char* retreived_characters_from_front = malloc(1000*sizeof(char)); 
-	char* retreived_characters_from_back = malloc(1000*sizeof(char));
+	char* retreived_characters_from_front = malloc(100*sizeof(char)); 
+	char* retreived_characters_from_back = malloc(100*sizeof(char));
 	
 	if(retreived_characters_from_front == NULL || retreived_characters_from_back == NULL){
-			perror("\nMemory allocation failure");
+			printf("\nMemory allocation failure");
 			return 1;
 		}
 	
