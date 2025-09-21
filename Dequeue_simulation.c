@@ -8,6 +8,7 @@ int main(){
 	char*userentered_string = malloc(100*sizeof(char)); // Allocating memory
 	if(userentered_string == NULL){
 		printf("Error allocating memory\n"); // Checking errors  for memory allocation
+		return 1; // error code
 	}
 	printf("\nEnter your string for retrieval of all of it's characters: ");
 	fgets(userentered_string , 100 , stdin);
@@ -59,8 +60,8 @@ int main(){
 	Lptr = userentered_string; // Initializing Left pointer at start of string 
         Rptr = &userentered_string[length-1];
 	        for(int i = 0 ; i<(length+1)/2 ; i++){
-
-                *(Lptr+i) = *(NewLptr+i);
+        /* Rewriting original string with new string*/
+                *(Lptr+i) = *(NewLptr+i); 
                 *(Rptr-i) = *(NewRptr-i);
         }
 		
