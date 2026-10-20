@@ -1,3 +1,8 @@
+; Assemble this file with nasm( The Netwide Assembler on Linux only) 
+; Command to assemble: nasm -f elf64 shellcode.asm -o shellcode.o
+; Command to link: ld shellcode.o -o shellcode.out
+
+
 bits 64
 
 section .text
