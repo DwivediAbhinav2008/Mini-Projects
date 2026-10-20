@@ -1,13 +1,25 @@
-# Mini-Projects
+Programming & Systems Development
 
-A collection of mini-projects created by an 11th grader from India exploring the world of programming.
+A collection of software projects, programming experiments, and systems-level implementations exploring different aspects of computing.
 
-These projects are built in different programming languages as part of my learning journey. The goal is simple: practice, experiment, and grow.
+This repository brings together work across multiple programming languages, ranging from core algorithms and data structures to custom libraries, Linux utilities, low-level programming, and systems-oriented experiments.
 
-I share them here not just to track my progress but also to connect with others who love programming.
+Each project explores a different concept or technical challenge, with an emphasis on implementation, experimentation, and understanding how software works beneath the surface.
 
-Your feedback is valuable! Even though these projects are small right now, they’re stepping stones. With time, I’ll move toward more advanced and impactful projects.
+Areas of Exploration
 
-Instagram for any suggestion or query:
+- C — Programming fundamentals, algorithms, data structures, and custom libraries.
+- Systems Programming — Linux utilities, low-level operations, and system-level concepts.
+- Security Research — Shellcode, reverse-shell experiments, and exploration of security-related techniques.
+- Libraries & Utilities — Custom implementations, number-processing libraries, and practical tools.
+- Programming Experiments — Independent projects exploring concepts, approaches, and ideas across software development.
 
-https://www.instagram.com/c_programmer001?igsh=MWxyNjllMG42M2kwNQ==
+This repository evolves as new projects are built, existing implementations are improved, and new areas of computing are explored.
+
+I'm open to constructive feedback, technical discussions, and suggestions for improvement.
+
+Contact: rrr995101@gmail.com
+
+---
+
+Understand the internals. Experiment with ideas. Build from the ground up.
