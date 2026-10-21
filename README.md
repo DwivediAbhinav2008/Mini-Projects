@@ -18,7 +18,8 @@ This repository evolves as new projects are built, existing implementations are 
 
 I'm open to constructive feedback, technical discussions, and suggestions for improvement.
 
-Contact: rrr995101@gmail.com
+Contact: dwivediabhinav2008@gmail.com 
+         rrr995101@gmail.com
 
 ---
 
